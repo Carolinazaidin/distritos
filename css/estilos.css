@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+        background-color: rgb(255, 249, 241);
+}
+
+.logoa{
+    width: 15%;
+    height: auto;
+    display: block;
+    margin-bottom: 3%;
+}
+
+
+header{
+    background-color: whitesmoke;
+    position: sticky;
+}
+
+header h5{
+   display:inline-block; 
+   margin-left: 10px;
+    
+
+}
+.menu{
+    float: right;/* Q ue se  quede a la derecha sin que se ajunten */
+    margin-right:20px ;
+}
+
+.menu a{
+	color:black;
+	text-decoration:none;
+	font-weight:bold;
+	margin-right:15px;/*Espaciado entre las listas, gap solo es para flas y columnas*/
+}
+
+.menu li{
+	list-style:none;
+	display:inline-block;/*posicion horizontal*/
+
+}
+
+
+
+.encabezado{
+    color:whitesmoke;
+    background: linear-gradient(#1e6420, #0d490d);
+    padding: 2%;
+    margin-bottom: 0;
+}
+
+.encabezado h6{
+    color: rgb(241, 209, 139);
+}
+
+ul li{
+
+    display:inline-block;
+    margin-right:15px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+}
+
+button{
+    margin-left: 30px;
+    font-size: 10px;
+    width: 70px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+
+
+.buscador{
+    margin-left: 30px;
+
+}
+
+.miBoton{
+  display: inline-block;     /* Permite ajustar ancho, alto y rellenos */
+  background-color: #1d8034; /* Color del botón (verde) */
+  color: #ffffff;            /* Color del texto */
+  margin-top: 15px;
+  padding: 5px 10px;        /* Espaciado interno (arriba/abajo, lados) */
+  text-decoration: none;     /* Quita el subrayado del enlace */
+  border-radius: 6px;        /* Bordes redondeados */
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.datos{
+    margin-top: 15px;
+}
+.secciones{
+    padding: 20px;;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+.secciones article h5 {
+  font-size: 1.1rem;
+  color: #1A1A1A;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.secciones article {
+  width: 280px;
+  background-color: #FCFBF7;
+  border: 1px solid #E5DFD3;
+  border-radius: 4px;
+  padding: 16px;
+  box-sizing: border-radius;
+  font-family: serif;
+}
+
+.cabecera-foto img{
+  width: 100%;
+  height: 200px; /* O la altura fija que desees para el encabezado */
+  object-fit: cover; /* Recorta la imagen manteniendo su proporción sin deformarla */
+  display: block;
+}
+
+.cabecera-foto h5{
+    margin-bottom: 5px;
+} 
+
+
+.flecha img{
+    position:fixed;/*Sirve para fijar y no se mueva, no tiene porque tener el contenedor con el position:relative */
+	bottom:10px;
+	right:10px;
+    width: 30px;
+}
+
+footer{
+    color: whitesmoke;
+    background-color: rgb(37, 35, 35);
+    padding: 3%;
+}
+
+footer img{
+    width: 7%;
+}
+.politicas a{
+    color: whitesmoke;
+
+
+}
+
+/*para que sea responsive la pagina*/
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
